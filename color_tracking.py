@@ -3,6 +3,7 @@ import cv2
 
 def nothing(x):
     pass
+
 img = np.zeros((300,512,3),np.uint8)
 camera = cv2.VideoCapture(0)
 cv2.namedWindow("trackers")
